@@ -13,9 +13,8 @@ kotlin {
 }
 dependencies {
     implementation(projects.shared)
-
     implementation(libs.androidx.activity.compose)
-
+    implementation("androidx.compose.material3:material3:1.2.1")
     implementation(libs.compose.uiToolingPreview)
     debugImplementation(libs.compose.uiTooling)
 }
