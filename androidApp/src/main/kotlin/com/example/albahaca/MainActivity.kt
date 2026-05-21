@@ -23,3 +23,9 @@ class MainActivity : ComponentActivity() {
 fun AppAndroidPreview() {
     App()
 }
+
+@Composable
+fun TarjetaAlbahaca() {
+    Text("�Bienvenido a la App Albahaca!")
+}
+
