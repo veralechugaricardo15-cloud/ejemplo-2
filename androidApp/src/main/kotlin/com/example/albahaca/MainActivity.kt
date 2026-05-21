@@ -34,6 +34,6 @@ fun TarjetaAlbahaca() {
 @Composable
 fun BotonSoporte() {
     Button(onClick = {}) {
-        Text("Soporte")
+        Text("Soporte app")
     }
 }
