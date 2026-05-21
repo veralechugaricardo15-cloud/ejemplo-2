@@ -29,3 +29,10 @@ fun TarjetaAlbahaca() {
     Text("�Bienvenido a la App Albahaca!")
 }
 
+
+@Composable
+fun BotonSoporte() {
+    Button(onClick = {}) {
+        Text("Soporte")
+    }
+}
