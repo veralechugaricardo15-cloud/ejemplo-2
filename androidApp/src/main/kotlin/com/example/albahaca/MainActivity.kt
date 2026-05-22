@@ -38,4 +38,10 @@ fun BotonSoporte() {
  Button(onClick = { }) {
  Text("Soporte")
  }
+    @Composable
+    fun BotonSoporte() {
+        androidx.compose.material3.Button(onClick = {}) {
+            androidx.compose.material3.Text("Soporte")
+        }
+    }
 }
