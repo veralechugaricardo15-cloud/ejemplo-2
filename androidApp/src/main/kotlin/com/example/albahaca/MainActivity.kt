@@ -8,6 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.view.KeyEventDispatcher
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
@@ -36,4 +38,10 @@ fun BotonSoporte() {
     Button(onClick = { }) {
         Text("Soporte app")
     }
+
+  @Composable
+  fun ComponenteRama3(){
+
+  }
 }
+
