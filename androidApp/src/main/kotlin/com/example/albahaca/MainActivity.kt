@@ -39,3 +39,9 @@ fun BotonSoporte() {
  Text("Soporte")
  }
 }
+@Composable
+fun BotonSoporte() {
+ Button(onClick = {}) {
+ Text("Soporte")
+ }
+}
