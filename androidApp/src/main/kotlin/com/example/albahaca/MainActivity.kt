@@ -35,13 +35,7 @@ fun TarjetaAlbahaca() {
 
 @Composable
 fun BotonSoporte() {
- Button(onClick = {}) {
- Text("Soporte")
- }
-}
-@Composable
-fun BotonSoporte() {
- Button(onClick = {}) {
+ Button(onClick = { }) {
  Text("Soporte")
  }
 }
